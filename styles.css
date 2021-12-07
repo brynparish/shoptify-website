@@ -1,0 +1,63 @@
+#page-width {
+    background-color: teal;
+    width: 100vw;
+    margin-left: 50%;
+    transform: translate(-50vw);
+}
+
+/* initalize images */
+#guided-tplo-image {
+    background:url(https://cdn.shopify.com/s/files/1/0550/8546/5770/files/ossability_guided_tplo.jpg?v=1625697257);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#guided-tta-image {
+    background:url(https://cdn.shopify.com/s/files/1/0550/8546/5770/files/Osteotomy_2BGuide_2BAssembly_2B-_2BRight_2BRendering_2B_25281_2529.jpg?v=1625697237);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+div.product-images {
+    width: 100%;
+    padding-top: 40%;
+}
+/* initalize images */
+
+
+/* row logic */
+.row {
+    display: flex;
+    flex-direction: row;
+    background-color: coral;
+}
+
+.row > div {
+    width: 50%;
+}
+
+@media all and (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .row > div {
+        width: 100%;
+    }
+}
+/* row logic */
+
+.narrow {
+    max-width: 800px;
+    margin: auto;
+}
+
+.text-content {
+    background-color: wheat;
+    padding: 20px;
+}
+
+#products-section {
+}
