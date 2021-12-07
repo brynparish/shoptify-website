@@ -1,3 +1,9 @@
+/* ###############  DECLARE VARABLES   ######################## */
+:root {
+}
+
+
+
 #page-width {
     background-color: teal;
     width: 100vw;
@@ -52,7 +58,7 @@ div.product-images {
 .narrow {
     background-color: darkslategray;
     padding-top: 5px;
-    max-width: 800px;
+    max-width: 1000px;
     margin: auto;
 }
 
@@ -72,3 +78,30 @@ div.product-images {
     top: 100%;
     left: 0px;
 }
+
+/* about section */
+#about-section-container > div.text-content > p{
+    columns: 2 200px;
+}
+
+#about-section > svg.big-asterix {
+    width: 150px;
+    margin: 30px;
+    background-color:var(--background-color-main);
+}
+
+/* change the ratio of the buffer to the about section container here */
+#about-section > div.row > div.buffer {
+    width: 30%;
+}
+#about-section > div.row > div#about-section-container {
+    width: 70%;
+}
+
+@media all and (max-width: 768px) {
+    #about-section > div.row > div#about-section-container {
+        width: 100%;
+    }
+}
+
+/* about section */
