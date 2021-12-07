@@ -50,6 +50,8 @@ div.product-images {
 /* row logic */
 
 .narrow {
+    background-color: darkslategray;
+    padding-top: 5px;
     max-width: 800px;
     margin: auto;
 }
@@ -59,5 +61,14 @@ div.product-images {
     padding: 20px;
 }
 
-#products-section {
+.header-container > h1 {
+    position: relative;
+    margin: 20px;
+    background-color: darkgreen;
+}
+
+.header-container > h1 > svg {
+    position: absolute;
+    top: 100%;
+    left: 0px;
 }
