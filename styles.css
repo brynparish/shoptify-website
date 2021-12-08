@@ -1,12 +1,11 @@
 /* ###############  DECLARE VARABLES   ######################## */
 :root {
-    --title-asterix-width: 40px;
+    --grey-section-color: rgb(235,244,248);
 }
 
 
 
 #page-width {
-    background-color: teal;
     width: 100vw;
     margin-left: 50%;
     transform: translate(-50vw);
@@ -44,7 +43,6 @@ div.product-images {
 .row {
     display: flex;
     flex-direction: row;
-    background-color: coral;
 }
 
 .row > div {
@@ -63,21 +61,18 @@ div.product-images {
 /* row logic */
 
 .narrow {
-    background-color: darkslategray;
     padding-top: 5px;
     max-width: 1200px;
     margin: auto;
 }
 
 .text-content {
-    background-color: wheat;
     padding: 20px;
 }
 
 .header-container > h1 {
     position: relative;
     margin: 20px;
-    background-color: darkgreen;
 }
 
 .header-container > h1 > svg {
@@ -94,7 +89,6 @@ div.product-images {
 #about-section > svg.big-asterix {
     width: 150px;
     margin: 30px;
-    background-color:var(--background-color-main);
 }
 
 /* change the ratio of the buffer to the about section container here */
@@ -127,14 +121,12 @@ div.product-images {
 
 #title-section > h1 {
     position:absolute;
-    background-color: rgb(71, 30, 71);
     margin: 100px;
     margin-top: 30vh;
     padding-bottom: auto;
 }
 
 #title-section > h1 > svg.asterix {
-    background-color: turquoise;
     position: absolute;
     transform: translate(-40px, -40px);
 }
@@ -145,6 +137,9 @@ div.product-images {
         margin-top: 30vh;
     }
 }
-
-
 /* title section */
+
+
+.blue-background-section {
+    background: var(--grey-section-color);
+}
